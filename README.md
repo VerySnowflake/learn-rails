@@ -1,2 +1,2 @@
 # learn-rails
-A project to help me get started with rails
+A fun project to help me get started with rails
