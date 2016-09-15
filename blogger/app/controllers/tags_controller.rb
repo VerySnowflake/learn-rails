@@ -12,4 +12,6 @@ class TagsController < ApplicationController
         @tag.destroy
         redirect_to tag_path(tag)
     end
+
+    before_filter :require_login, only: [:destroy]
 end
